@@ -1,0 +1,29 @@
+{
+  "name": "git-url-promise",
+  "version": "1.0.0",
+  "description": "Git url promise",
+  "main": "index.js",
+  "keywords": [
+    "git",
+    "remote",
+    "url",
+    "parse",
+    "promise"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Evgeniy Shershnev <joshuan.chel@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "git-url-parse": "^8.1.0",
+    "simple-git": "^1.91.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuan/git-url.git"
+  }
+}
